@@ -1,5 +1,5 @@
 import classes from "./Home.module.css";
-import mouse_icon from "../../assets/mouse icon.png";
+import mouse_icon from "../../assets/mouse_icon.png";
 function Home(){
     return(
         <div className={classes.home}>
