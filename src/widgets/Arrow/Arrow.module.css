@@ -1,0 +1,27 @@
+.arrowbutton {
+    background-color: black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.uparrow {
+    transform: rotateX(180deg);
+}
+
+.open_arrowbutton {
+    transform: rotateX(0deg);
+}
+
+.arrowbutton img {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+}

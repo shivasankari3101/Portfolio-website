@@ -3,6 +3,7 @@ import About from "../../components/About/About";
 import Slogan from "../../components/Slogan/Slogan";
 import Services from "../../components/Services/Services"
 import Experience from "../../components/Experience/Experience";
+import Projects from "../../components/Projects/Projects";
 
 function Portfolio() {
   return (
@@ -12,6 +13,7 @@ function Portfolio() {
       <Slogan></Slogan>
       <Services></Services>
       <Experience></Experience>
+      <Projects></Projects>
 
     </div>
   );

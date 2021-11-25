@@ -1,0 +1,23 @@
+.projects {
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+
+.projects>h1 {
+    font-size: 3rem;
+}
+
+.projects hr {
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 10% 60% 20%;
+    grid-gap: 5%;
+}

@@ -1,7 +1,7 @@
 import classes from "./Experience.module.css";
 import {Accordion, useAccordionButton, Card} from 'react-bootstrap';
 import experiences from "../../data/experiences";
-import arrow from "../../assets/Button_arrow.svg";
+import Arrow from "../../widgets/Arrow/Arrow";
 
 function CustomToggle({ children, eventKey }) {
     const decoratedOnClick = useAccordionButton(eventKey, () =>{
@@ -10,12 +10,9 @@ function CustomToggle({ children, eventKey }) {
     );
   
     return (
-      <button
-        className={classes.arrowbutton}
-        onClick={decoratedOnClick}
-      >
-        {children}
-      </button>
+      <div  onClick={decoratedOnClick}>
+         <Arrow direction="uparrow"></Arrow>
+      </div>
     );
   }
   
@@ -38,11 +35,8 @@ function Experience(){
                 <hr />
                  <p>{experience.date}</p>
               </div>
-              <div>
               <CustomToggle eventKey={experience.id}>
-                  <img src={arrow} alt="arrow" />
               </CustomToggle>
-              </div>
             </Card.Header>
             <Accordion.Collapse eventKey={experience.id}>
               <Card.Body>{experience.description}</Card.Body>
