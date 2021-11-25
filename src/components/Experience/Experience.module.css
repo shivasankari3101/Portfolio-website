@@ -1,0 +1,62 @@
+.experience {
+    min-height: 100vh;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+
+.experience>h1 {
+    font-size: 3rem;
+}
+
+.experience hr {
+    height: 1px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.card {
+    border: 0;
+}
+
+.card_header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 0;
+    margin-top: 5%;
+    padding-left: 0;
+}
+
+.card_header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.arrowbutton {
+    background-color: black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(180deg);
+}
+
+.open_arrowbutton {
+    transform: rotateX(0deg);
+}
+
+.arrowbutton img {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+}
+
+.card:last-child>hr {
+    display: none;
+}

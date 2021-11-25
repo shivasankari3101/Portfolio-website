@@ -1,20 +1,29 @@
 .services {
     min-height: 100vh;
     padding: 5% 0 5% 5%;
-    font-size: 2.5rem;
+}
+
+.services hr {
+    opacity: 0.65;
 }
 
 .services h1 {
     font-weight: 100;
     margin: 1rem 0;
+    font-size: 2.8rem;
 }
 
 .service {
     text-align: center;
 }
 
+.service .line {
+    display: flex;
+    justify-content: center;
+}
+
 .service hr {
-    width: 60%;
+    width: 80%;
     height: 1px;
     background-color: #000;
     transform: translateX(-5%);
@@ -26,12 +35,13 @@
 
 .content {
     display: grid;
-    grid-template-columns: 60% 36%;
+    grid-template-columns: 50% 46%;
     grid-gap: 4%;
     font-size: 1.8rem;
     align-items: center;
+    justify-items: center;
     text-align: left;
-    padding: 2% 0;
+    padding: 3% 0;
 }
 
 .content img {
@@ -40,11 +50,11 @@
 }
 
 .content .resize_image {
-    width: 60%;
+    width: 30%;
 }
 
 .service:nth-child(even) .content {
-    grid-template-columns: 25% 70%;
+    grid-template-columns: 46% 50%;
 }
 
 .service:nth-child(even) .content h1 {
