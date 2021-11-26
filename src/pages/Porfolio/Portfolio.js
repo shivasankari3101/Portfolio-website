@@ -7,6 +7,7 @@ import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
 
 function Portfolio() {
+
   return (
     <div className="Portfolio">
       <Home></Home>

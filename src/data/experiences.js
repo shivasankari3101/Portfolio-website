@@ -18,7 +18,7 @@ const experiences = [{
         id: 2,
         role: "Web development Intern",
         company: "Skynet Software Solutions",
-        date: "28th Apr,2021 - 28th Aug,2021",
+        date: "1st Dec,2020 - 1st Mar,2021",
         description: "I was given a team of 3 back-end developers and 4 front-end web developers including me. Our work was to create a quiz website where people can host and play quizzes. My role was to create the required layout for the website along with the other front end developers.",
         certificate: ""
     },
@@ -26,7 +26,7 @@ const experiences = [{
         id: 3,
         role: "Frontend Web developer",
         company: "Association of Computer Engineers,SVCE",
-        date: "28th Apr,2021 - 28th Aug,2021",
+        date: "Aug,2020 - Aug,2021",
         description: "My role for was to create the website for ACE with a team and make changes when needed!",
         certificate: ""
     }

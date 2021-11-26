@@ -12,7 +12,7 @@ function Projects(){
                return(
                    <div key={project.id} className={classes.project}>
                        <div className={classes.container}>
-                       <h1>{project.id}</h1>
+                       <h1>0{project.id}</h1>
                        <div className={classes.domain_container}>
                            <h1>{project.domain} projects</h1>
                            <p>{project.description}</p>

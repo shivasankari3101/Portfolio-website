@@ -14,7 +14,7 @@ const Services_data = [{
     },
     {
         id: "3",
-        name: "Intermediate level of animation using GSAP",
+        name: "Beginner level of animation using GSAP",
         image: "./images/service3.png",
         image_resize: true,
         mobile_image: null

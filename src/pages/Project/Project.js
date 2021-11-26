@@ -18,13 +18,9 @@ function Project(){
              {project.projects.map(project =>{
                 return(
                     <div className={classes.project} key={project.id}>
-                    <a href={project.url} className={classes.image}>
-                        <img src={project.image} alt={project.title}/>
-                        <div className={classes.overlay}></div>
-                    </a>
                     <div className={classes.text_content}>
                     <h1><a href={project.url}>{project.title}</a></h1>
-                    <p>Technologies used: {project.tech}</p>
+                    <p><h2 style={{display:"inline-block",fontSize:"1.3rem",fontWeight:"bold"}}>Technologies used: </h2>{project.tech}</p>
                     <hr />
                     <p>{project.description}</p>
                     <p>Want to see the code? <a href={project.github_url}>Check it out here!</a></p>
