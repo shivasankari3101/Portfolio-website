@@ -4,16 +4,6 @@
     font-size: 1.5rem;
 }
 
-.experience>h1 {
-    font-size: 3rem;
-}
-
-.experience hr {
-    height: 1px;
-    background-color: black;
-    opacity: 0.5;
-}
-
 .card {
     border: 0;
 }
@@ -35,4 +25,10 @@
 
 .card:last-child>hr {
     display: none;
+}
+
+@media screen and (max-width:340px) {
+    .card_header h1 {
+        word-break: break-all;
+    }
 }

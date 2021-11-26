@@ -4,20 +4,50 @@
     color: #fff;
     padding: 5%;
     font-size: 1.5rem;
-}
-
-.projects>h1 {
-    font-size: 3rem;
-}
-
-.projects hr {
-    height: 1px;
-    background-color: #fff;
-    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project .container {
+    width: 100%;
     display: grid;
     grid-template-columns: 10% 60% 20%;
     grid-gap: 5%;
+    justify-items: center;
+    align-items: center;
+    padding: 3% 0;
+}
+
+.project .container>h1 {
+    align-self: start;
+}
+
+.project .container .domain_container>h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.project hr {
+    background-color: #fff;
+    opacity: 1;
+    width: 70%;
+}
+
+@media screen and (max-width:576px) {
+    .project .container .domain_container>p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .project .container .domain_container>h1 {
+        font-size: 2rem;
+    }
 }

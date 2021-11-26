@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import classes from "./Services.module.css";
 import Services_data from "../../data/services";
+import Title from "../../widgets/Title/Title";
 
 function Services(){
     const [IsMobile,setIsMobile]=useState(window.innerWidth < 768);
@@ -13,9 +14,9 @@ function Services(){
         window.addEventListener("resize",update);
     })
     return(
-        <div className={classes.services}>
-            <h1>what I do?</h1>
-            <hr />
+        <div className={classes.services_comp}>
+            <Title title="what I do?"></Title>
+            <div className={classes.services}>
             {Services_data.map(service=>{
                 return <div key={service.id} className={classes.service}>
                   <div className={classes.content}>
@@ -27,6 +28,7 @@ function Services(){
                   </div>
                  </div>
             })}
+            </div>
         </div>
     )
 }

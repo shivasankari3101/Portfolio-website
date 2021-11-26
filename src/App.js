@@ -1,11 +1,19 @@
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Portfolio from "./pages/Porfolio/Portfolio";
-import { Button } from 'react-bootstrap';
+import Project from "./pages/Project/Project";
+import Layout from "./Layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-       <Portfolio></Portfolio>
-    </div>
+   <Router>
+     <Layout>
+     <Routes>
+       <Route path="/" element={<Portfolio/>}></Route>
+       <Route path="/projects/:domain" element={<Project/>}></Route>
+     </Routes>
+     </Layout>
+   </Router>
+      
   );
 }
 

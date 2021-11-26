@@ -12,8 +12,13 @@
     cursor: pointer;
 }
 
-.uparrow {
+.uparrow .arrowbutton {
     transform: rotateX(180deg);
+}
+
+.sidearrow .arrowbutton {
+    background-color: #fff;
+    transform: rotate(45deg);
 }
 
 .open_arrowbutton {

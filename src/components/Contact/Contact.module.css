@@ -1,0 +1,47 @@
+.contact {
+    padding: 5%;
+}
+
+.contact p,
+.contact a {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    color: var(--bs-body-color);
+    font-weight: lighter;
+}
+
+.contact_detail {
+    word-break: break-all;
+    margin-top: 3%;
+}
+
+.profiles {
+    margin-top: 5%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiles img {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:768px) {
+    .contact p,
+    .contact a {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .contact_detail {
+        word-break: break-all;
+        margin-top: 5%;
+    }
+    .profiles {
+        width: 50%;
+    }
+    .profiles img {
+        width: 70px;
+        height: 70px;
+    }
+}

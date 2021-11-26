@@ -1,0 +1,21 @@
+.footer {
+    padding: 3% 5% 0 5%;
+}
+
+.footer hr {
+    opacity: 1;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width:576px) {
+    .content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}

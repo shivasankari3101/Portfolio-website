@@ -30,16 +30,8 @@
 }
 
 .text_content h1 {
-    font-size: 3em;
+    font-size: 2.8em;
     font-weight: bold;
-}
-
-.hyphen {
-    margin-top: calc(1.33em + 17px);
-    background-color: #fff;
-    width: 100%;
-    height: 5px;
-    display: inline-block;
 }
 
 .mouse_icon {

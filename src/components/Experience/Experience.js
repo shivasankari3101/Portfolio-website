@@ -2,6 +2,7 @@ import classes from "./Experience.module.css";
 import {Accordion, useAccordionButton, Card} from 'react-bootstrap';
 import experiences from "../../data/experiences";
 import Arrow from "../../widgets/Arrow/Arrow";
+import Title from "../../widgets/Title/Title";
 
 function CustomToggle({ children, eventKey }) {
     const decoratedOnClick = useAccordionButton(eventKey, () =>{
@@ -22,8 +23,7 @@ function CustomToggle({ children, eventKey }) {
 function Experience(){
     return(
         <div className={classes.experience}>
-            <h1>experience</h1>
-            <hr/>
+             <Title title="experience"></Title>
              <Accordion defaultActiveKey="0">
       {experiences.map(experience => {
           return(

@@ -1,16 +1,6 @@
-.services {
+.services_comp {
     min-height: 100vh;
     padding: 5% 0 5% 5%;
-}
-
-.services hr {
-    opacity: 0.65;
-}
-
-.services h1 {
-    font-weight: 100;
-    margin: 1rem 0;
-    font-size: 2.8rem;
 }
 
 .service {
@@ -45,8 +35,12 @@
 }
 
 .content img {
-    width: 100%;
+    width: 60%;
     object-fit: cover;
+}
+
+.service:first-child .content img {
+    justify-self: end;
 }
 
 .content .resize_image {
@@ -62,7 +56,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .services {
+    .services_comp {
         font-size: 1.3rem;
         padding: 5% 0;
     }

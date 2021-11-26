@@ -1,5 +1,3 @@
-import { useRef, useEffect, useState } from "react";
-import { gsap } from "gsap/all";
 import classes from "./Home.module.css";
 import mouse_icon from "../../assets/mouse_icon.png";
 function Home(){
@@ -9,13 +7,11 @@ function Home(){
         <div className={classes.home} >
             <div className={classes.overlay} ></div>
             <div className={classes.text_content}>
-               <div>
-               <span className={classes.hyphen}></span>
-               </div>
+               <div></div>
                <div className={classes.content}>
                <h4>HI, I AM SHIVA !</h4>
                 <h1>WEB DEVELOPER</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                <p>We help clients express their gesture through websites</p>
                </div>
             </div>
             <div className={classes.mouse_icon}>

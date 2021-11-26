@@ -4,6 +4,7 @@ import Slogan from "../../components/Slogan/Slogan";
 import Services from "../../components/Services/Services"
 import Experience from "../../components/Experience/Experience";
 import Projects from "../../components/Projects/Projects";
+import Contact from "../../components/Contact/Contact";
 
 function Portfolio() {
   return (
@@ -14,7 +15,7 @@ function Portfolio() {
       <Services></Services>
       <Experience></Experience>
       <Projects></Projects>
-
+      <Contact></Contact>
     </div>
   );
 }

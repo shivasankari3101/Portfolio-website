@@ -1,0 +1,17 @@
+h1 {
+    font-size: 3rem;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.white h1 {
+    color: #fff;
+}
+
+.white hr {
+    background-color: #fff;
+}

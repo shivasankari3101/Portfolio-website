@@ -3,7 +3,7 @@ const experiences = [{
         role: "Web development Intern",
         company: "Drawww Media",
         date: "28th Apr,2021 - 28th Aug,2021",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        description: "I learnt Wordpress Theme Development and completed 75% of a wordpress project.I also learnt to host the wordpress websites and how to host multiple websites in one digital ocean droplet.I was given a chance to learn GSAP and work on a simple mini-project to create a landing page using GSAP.",
         certificate: ""
     },
     {
@@ -11,7 +11,7 @@ const experiences = [{
         role: "Course Instructor/mentor",
         company: "Conzura Soft Solutions",
         date: "14th Jul,2021 - 14th Aug,2021",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        description: "My role was to teach the basics of html and css for some students.After completing few important concepts, I asked them to do a simple assignment .I reviewed them and suggested better changes.",
         certificate: ""
     },
     {
@@ -19,7 +19,7 @@ const experiences = [{
         role: "Web development Intern",
         company: "Skynet Software Solutions",
         date: "28th Apr,2021 - 28th Aug,2021",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        description: "I was given a team of 3 back-end developers and 4 front-end web developers including me. Our work was to create a quiz website where people can host and play quizzes. My role was to create the required layout for the website along with the other front end developers.",
         certificate: ""
     },
     {
@@ -27,7 +27,7 @@ const experiences = [{
         role: "Frontend Web developer",
         company: "Association of Computer Engineers,SVCE",
         date: "28th Apr,2021 - 28th Aug,2021",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        description: "My role for was to create the website for ACE with a team and make changes when needed!",
         certificate: ""
     }
 ]
