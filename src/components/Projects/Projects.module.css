@@ -44,10 +44,8 @@
     .project .container .domain_container>p {
         display: none;
     }
-}
-
-@media screen and (max-width:300px) {
-    .project .container .domain_container>h1 {
+    .project .container .domain_container>h1,
+    .project .container>h1 {
         font-size: 2rem;
     }
 }

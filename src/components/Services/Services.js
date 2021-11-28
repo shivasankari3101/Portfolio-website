@@ -21,7 +21,7 @@ function Services(){
                 return <div key={service.id} className={classes.service}>
                   <div className={classes.content}>
                   <h1>{service.name}</h1>
-                  <img src={service.mobile_image && IsMobile ?  service.mobile_image : service.image } alt={service.name} className={service.image_resize && classes.resize_image }/>
+                  <img src={service.mobile_image && IsMobile ?  service.mobile_image : service.image } alt={service.name} className={service.image_resize ? classes.resize_image : null}/>
                   </div>
                   <div className={classes.line}>
                   <hr />
