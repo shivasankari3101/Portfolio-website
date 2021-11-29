@@ -38,7 +38,7 @@ function Home(){
                <div className={classes.content}>
                <h4>HI, I AM SHIVA !</h4>
                 <h1>WEB DEVELOPER</h1>
-                <p>I help clients express their gesture through websites</p>
+                <p>I help clients express themselves through websites</p>
                </div>
             </div>
         </div>
