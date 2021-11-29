@@ -3,13 +3,21 @@ import Portfolio from "./pages/Porfolio/Portfolio";
 import Project from "./pages/Project/Project";
 import Layout from "./Layout/Layout";
 
+const routes =[
+  {path:"/", name:"portfolio", Component:Portfolio},
+  {path:"/projects/:domain", name:"project", Component:Project},
+]
+
 function App() {
   return (
    <Router>
      <Layout>
      <Routes>
-       <Route path="/" element={<Portfolio/>}></Route>
-       <Route path="/projects/:domain" element={<Project/>}></Route>
+       {routes.map(({path,name,Component})=>{
+         return(
+           <Route path={path} key={name} element={<Component/>}></Route>
+         )
+       })}
      </Routes>
      </Layout>
    </Router>

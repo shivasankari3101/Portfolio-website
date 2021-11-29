@@ -1,35 +1,45 @@
 .slogan {
     width: 100%;
     min-height: 100vh;
-    background-image: url(../../assets/slogan.png);
-    background-size: cover;
+    /* background-image: url(../../assets/slogan.png);
+    background-size: cover; */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .slogan h1 {
     position: absolute;
     color: #fff;
     font-size: 3em;
-    z-index: 2;
+    z-index: 3;
     font-weight: 100;
     text-align: center;
 }
 
-.overlay {
+.overlay,
+.image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
     z-index: 1;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+}
+
+.image {
+    object-fit: cover;
 }
 
 @media screen and (max-width:768px) {
     .slogan h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }

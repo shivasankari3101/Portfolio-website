@@ -2,16 +2,30 @@ import classes from "./Project.module.css";
 import {getProjectData} from "../../data/projects";
 import Title from "../../widgets/Title/Title";
 import {useParams} from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import gsap from "gsap/all";
 
 function Project(){
     let params = useParams();
     let project = getProjectData(params.domain);
+
+    let overlayRef = useRef(null);
+
     useEffect(()=>{
-        window.scrollTo(0,0);
+        window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'instant'            
+        });
+
+        gsap.to(overlayRef.current,{
+            width:"0%",
+            duration:1
+        })
     },[])
     return(
         <div className={classes.project_page}>
+           <div className={classes.overlay} ref={overlayRef}></div>
            <Title title={`${project.domain} Projects`}></Title>
 
            <div className={classes.projects}>

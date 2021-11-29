@@ -29,6 +29,10 @@
     grid-gap: 3%;
 }
 
+.text_content * {
+    overflow: hidden;
+}
+
 .text_content h1 {
     font-size: 2.6em;
     font-weight: bold;
