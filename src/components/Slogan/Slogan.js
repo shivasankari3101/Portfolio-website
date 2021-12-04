@@ -23,7 +23,7 @@ function Slogan(){
     },[])
     return(
         <div className={classes.slogan} ref={containerRef}>
-            <img src={image} ref={imageRef} alt="slogan image" className={classes.image} />
+            <img src={image} ref={imageRef} alt="slogan_image" className={classes.image} />
             <div className={classes.overlay}></div>
             <h1>LEARN, WORK AND EARN</h1>   
         </div>

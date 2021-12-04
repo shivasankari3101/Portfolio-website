@@ -10,8 +10,11 @@
 
 .white h1 {
     color: #fff;
+    font-size: 3rem;
 }
 
 .white hr {
     background-color: #fff;
+    height: 1px;
+    opacity: 0.5;
 }
