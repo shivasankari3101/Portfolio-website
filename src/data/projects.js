@@ -39,7 +39,7 @@ const projects_data = [{
                 title: "Timer",
                 description: "It is a simple timer where we can set the time and it will pop up an image after the given time. We can also stop the timer if needed. It is created using Javascript and Jquery.",
                 tech: "HTML, CSS, Bootstrap, Javascript, Jquery",
-                url: "https://shivasankari3101.github.io/Js-projects/To_do_list/todo.html",
+                url: "https://shivasankari3101.github.io/Js-projects/Timer/timer.html",
                 github_url: "https://github.com/shivasankari3101/Js-projects/tree/master/Timer"
             },
             {
